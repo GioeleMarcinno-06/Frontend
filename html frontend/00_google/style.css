@@ -1,0 +1,17 @@
+h1{
+    color: red;
+    font-size: 60px;
+}
+body{
+    text-align:center;
+}
+.rounded{
+    width: 200px;
+    height:25px;
+    border-radius: 90px;
+}
+.button{
+    width: 100px;
+    height:27px;
+    border-radius: 50px;
+}

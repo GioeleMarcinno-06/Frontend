@@ -1,0 +1,87 @@
+.hotel{
+    border: 3px solid #680c0c;
+    font-family: sans-serif;
+    display: flex;
+    max-width: 800px;
+     padding: 1%;
+     gap: 15px;
+}
+.container-foto{
+    display: flex;
+    gap: 10px;
+    border: 2px solid black ;
+
+}
+
+.foto-principale{
+    width: 150px;
+    height: 150px;
+    background-color: #ccc;
+    padding-left: 20px;
+
+}
+.foto-secondaria{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.foto-secondaria1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border: 2px solid black;
+    border-radius: auto;
+    background-color: blue;
+}
+.foto-secondaria2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border: 2px solid black;
+    border-radius: auto;
+    background-color: blue;
+}
+.info {
+    flex: 1;
+    position: relative;
+}
+.titolo{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+.sottotitolo{
+    color: red;
+    margin: 5px;
+}
+.descrizione{
+    font-size: 14px;
+    line-height: 1.4;
+}
+.prezzo-link{
+    float: right;
+    text-decoration: none;
+    font-size: 13px;
+
+}
+.hr{
+    border: 0;
+    border-top: 1px solid #580808;
+    margin: 15px;
+}
+.icone{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+
+}
+.box{
+    width: 30px;
+    height: 30px;
+    background-color: #680c0c;
+    border: 1px solid #f80a0a;
+}
